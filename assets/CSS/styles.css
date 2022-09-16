@@ -1,0 +1,66 @@
+.bg-black{
+  background-color: #000;
+}
+i.fa-brands.fa-square-facebook.fa-2xl:hover{
+  color: rgb(46, 5, 229);
+}
+.list-group{
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-width: solid;
+    --bs-list-group-border-color: transparent;
+}
+.fa-brands.fa-square-instagram.fa-2xl:hover {
+    --bs-text-opacity: 1;
+    color: rgb(224, 26, 201) !important;
+}
+.fa-brands.fa-linkedin-in.fa-2xl:hover {
+  --bs-text-opacity: 1;
+  color: white !important;
+}
+.fa-solid.fa-user-lock.fa-2xl:hover {
+  --bs-text-opacity: 1;
+  color: rgb(224, 26, 201) !important;
+}
+section.banner{
+  background-image: url(../CSS/img/sierras.jpg);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -msn-background-size: cover;
+  -o-backgrond-size: cover;
+}
+h1.intro{
+  padding-top: 15%;
+  font-size: 3.5rem;
+}
+h3.intro{
+  font-size: 2.5rem;
+}
+section.presentacion{
+  background-color: rgb(231, 145, 159);
+}
+h2{
+  color: white;
+}
+section.estudios-cursados{
+  background-color: rgb(231, 145, 159);
+}
+section.cursos-realizados{
+  background-color: rgb(231, 145, 159);
+  
+}
+section.idiomas{
+  background-color: rgb(231, 145, 159);
+}
+section.experiencia-laboral{
+  background-color: rgb(231, 145, 159);
+}
+.btn-edit{
+  margin-right: 10px;
+  font-style: italic;
+  font-size: x-large;
+}
