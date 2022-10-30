@@ -1,17 +1,20 @@
-.bg-black{
+.bg-black {
   background-color: #000;
 }
-i.fa-brands.fa-square-facebook.fa-2xl:hover{
-  color: rgb(46, 5, 229);
+i.fa-brands.fa-square-facebook.fa-2xl,i.fa-brands.fa-square-instagram.fa-2xl,i.fa-brands.fa-linkedin-in.fa-2xl,i.fa-solid.fa-user-lock.fa-2xl,i.fa-solid.fa-user.fa-2xl {
+  color: blue;
 }
-.list-group{
-    --bs-list-group-bg: transparent;
-    --bs-list-group-border-width: solid;
-    --bs-list-group-border-color: transparent;
+i.fa-brands.fa-square-facebook.fa-2xl:hover {
+  color: white;
+}
+.list-group {
+  --bs-list-group-bg: transparent;
+  --bs-list-group-border-width: solid;
+  --bs-list-group-border-color: transparent;
 }
 .fa-brands.fa-square-instagram.fa-2xl:hover {
-    --bs-text-opacity: 1;
-    color: rgb(224, 26, 201) !important;
+  --bs-text-opacity: 1;
+  color: white !important;
 }
 .fa-brands.fa-linkedin-in.fa-2xl:hover {
   --bs-text-opacity: 1;
@@ -19,10 +22,17 @@ i.fa-brands.fa-square-facebook.fa-2xl:hover{
 }
 .fa-solid.fa-user-lock.fa-2xl:hover {
   --bs-text-opacity: 1;
-  color: rgb(224, 26, 201) !important;
+  color: white !important;
 }
-section.banner{
-  background-image: url(../CSS/img/sierras.jpg);
+.fa-solid.fa-user.fa-2xl:hover {
+  --bs-text-opacity: 1;
+  color: white !important;
+}
+ section.panel {
+  margin-top: 1rem;
+}
+section.banner {
+  background-image: url(../CSS/img/f5.jpg);
   height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
@@ -33,34 +43,167 @@ section.banner{
   -msn-background-size: cover;
   -o-backgrond-size: cover;
 }
-h1.intro{
+.foto-perfil {
+ 
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  margin-left: 23rem;
+  box-shadow: 6px 6px 6px 6px rgba(51, 119,165, 0.9);
+
+}
+.img-perfil {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  box-shadow: 6px 6px 6px 6px rgba(51, 119,165, 0.7);
+
+}
+.w-75 {
+  width: 20mm !important;
+}
+.w-25 {
+  width: 60mm !important;
+}
+h1.intro {
   padding-top: 15%;
   font-size: 3.5rem;
 }
-h3.intro{
+h3.intro {
   font-size: 2.5rem;
 }
-section.presentacion{
-  background-color: rgb(231, 145, 159);
+section.presentacion {
+  background-image: url(../CSS/img/fondo-index.jpg);
 }
-h2{
+h2 {
   color: white;
 }
-section.estudios-cursados{
-  background-color: rgb(231, 145, 159);
+h3 {
+  color: rgb(245, 246, 246);
 }
-section.cursos-realizados{
-  background-color: rgb(231, 145, 159);
-  
+section.estudios-cursados {
+  background-image: url(../CSS/img/fondo-index.jpg);
+  background-size: cover;
+
 }
-section.idiomas{
-  background-color: rgb(231, 145, 159);
+section.experiencia-laboral {
+  background-image: url(../CSS/img/fondo-index.jpg);
+  background-size: cover;
+
 }
-section.experiencia-laboral{
-  background-color: rgb(231, 145, 159);
+section.hard-and-soft-skills {
+  background-image: url(../CSS/img/fondo-index.jpg);
+  background-size: cover;
+
 }
-.btn-edit{
-  margin-right: 10px;
+section.proyectos {
+ background-image: url(../CSS/img/fondo-index.jpg);
+ background-size: cover;
+}
+
+.btn-edit {
+  margin-right: 25px;
   font-style: italic;
-  font-size: x-large;
+  font-size: medium;
 }
+.placeholder {
+  border-style: solid;
+  opacity: 5;
+  --bs-list-group-border-color: black;
+  --bs-list-group-border-width: solid;
+}
+footer
+{
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:40px;
+  width:100%;
+}
+.formulario-login{
+  margin-top: 15%;
+}
+.admin{
+  font-size: 1.25rem;
+  --bs-link-color: white;
+}
+.progress-circle-container{
+  background-color: aquamarine;
+}
+.progress-circle {
+  position: relative;
+  display: inline-block;
+  margin: 1rem;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #ebebeb; }
+
+.progress-circle:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -webkit-animation: colorload 2s;
+  animation: colorload 2s;
+ }
+.progress-circle-container{
+  color: aquamarine;
+}
+.progress-circle span {
+  font-size: 1rem;
+  color: #8b8b8b;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: block;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  margin-left: -45px;
+  margin-top: -45px;
+  text-align: center;
+  border-radius: 50%;
+  background: #fff;
+  z-index: 1; }
+
+.progress-circle span:after {
+  content: "%";
+  font-weight: 600;
+  color: #8b8b8b; }
+
+
+.progress-circle.progress-40:after {
+  background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(234deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+
+.progress-circle.progress-50:after {
+  background-image: linear-gradient(-90deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+
+.progress-circle.progress-60:after {
+  background-image: linear-gradient(-54deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+
+.progress-circle.progress-70:after {
+  background-image: linear-gradient(-18deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+
+.progress-circle.progress-75:after {
+  background-image: linear-gradient(0deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+
+.progress-circle.progress-80:after {
+  background-image: linear-gradient(18deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+
+.progress-circle.progress-82:after {
+  background-image: linear-gradient(25.2deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+
+.progress-circle.progress-85:after {
+  background-image: linear-gradient(36deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+
+
+.progress-circle.progress-87:after {
+  background-image: linear-gradient(43.2deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+
+ .modal-content{
+  background-color: #6c757d
+ }
